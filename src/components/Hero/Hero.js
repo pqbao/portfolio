@@ -1,0 +1,41 @@
+import React from "react";
+import "./Hero.css";
+import html from "../../assets/images/html.png";
+import img01 from "../../assets/images/home.gif";
+import react from "../../assets/images/react.png";
+import myCV from "../../assets/files/cv.pdf";
+
+const Hero = () => {
+  return (
+    <section id="home" className="hero-container">
+      <div className="hero-content">
+        <h2>Hello! I'am Bao</h2>
+        <h5>
+          I'am a <span>Frontend Developer</span>
+        </h5>
+
+        <p>
+          With a solid background in HTML, CSS and JavaScript, I look forward to
+          contributing to your Company's growth as a Front End Developer.
+        </p>
+        <div className="hero-btn">
+          <button className="btn btn-contact">
+            <a href="#contact">Contact Me</a>
+          </button>
+          <button className="btn btn-cv">
+            <a href={myCV} download="My-cv.pdf">
+              <span> Download CV</span>
+              <span className="material-icons-outlined">file_download</span>
+            </a>
+          </button>
+        </div>
+      </div>
+
+      <div className="hero-img">
+        <img src={img01} alt="" />
+      </div>
+    </section>
+  );
+};
+
+export default Hero;

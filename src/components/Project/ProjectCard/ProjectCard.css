@@ -1,0 +1,140 @@
+.project-card {
+  background: #130f2a;
+  border-radius: 0.65rem;
+  border: 1.5px solid #6751b9;
+  padding: 1.5rem;
+  margin: 0 1rem;
+}
+
+.project-card h6 {
+  font-size: 1.05rem;
+  font-weight: 500;
+  margin-bottom: 0.7rem;
+}
+
+.work-duration {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 400;
+  background: rgba(103, 81, 185, 0.5);
+  border-radius: 0.3rem;
+  padding: 0.4rem 0.6rem;
+  margin-bottom: 1.3rem;
+}
+
+.tech ul {
+  list-style: none;
+  display: grid;
+  gap: 0.6rem;
+  grid-template-columns: repeat(15, 1fr);
+  text-align: center;
+}
+
+.tech ul li {
+  font-size: 0.7rem;
+  padding: 0.2rem 0.4rem;
+  border-radius: 0.3rem;
+}
+
+.responsibilities {
+  margin-top: 1rem;
+}
+
+.responsibilities li {
+  list-style: none;
+  font-size: 0.8rem;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+  /* margin: 0 3rem; */
+  position: relative;
+}
+
+/* .responsibilities li::after {
+  content: " ";
+  width: 0.5rem;
+  height: 0.5rem;
+  background-color: #6751b9;
+  border-radius: 0.5rem;
+  position: absolute;
+  left: -1.3rem;
+  top: 0.35rem;
+} */
+
+.features {
+  margin-top: 1rem;
+}
+
+.features li {
+  list-style: none;
+  font-size: 0.8rem;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+  margin: 0 3rem;
+  position: relative;
+}
+
+.features li::after {
+  content: " ";
+  width: 0.5rem;
+  height: 0.5rem;
+  background-color: #6751b9;
+  border-radius: 0.5rem;
+  position: absolute;
+  left: -1.3rem;
+  top: 0.35rem;
+}
+
+.links-btn {
+  margin-top: 2rem;
+}
+
+.links-btn a {
+  text-decoration: none;
+  margin-right: 1rem;
+  color: #fff;
+  font-size: 0.8rem;
+  background: linear-gradient(90deg, #a892fe 0%, #8064e8 100%);
+  padding: 0.4rem 1rem;
+  border-radius: 0.6rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.links-btn:hover a:hover {
+  background: #d4d4d4;
+  color: #000;
+}
+
+@media (max-width: 768px) {
+  .project-card {
+    margin: 0;
+  }
+
+  .project-card h6 {
+    font-size: 0.95rem;
+  }
+
+  .project-card ul li {
+    font-size: 0.75rem;
+  }
+
+  .tech ul {
+    display: grid;
+    grid: 0.6rem;
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .tech ul li {
+    font-size: 0.7rem;
+    padding: 0.2rem 0.4rem;
+    border-radius: 0.3rem;
+  }
+
+  .responsibilities li {
+    text-align: justify;
+  }
+  .features li {
+    text-align: justify;
+    margin: 0 1rem 0 2rem;
+  }
+}
