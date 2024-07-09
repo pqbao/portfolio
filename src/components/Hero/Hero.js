@@ -11,7 +11,7 @@ const Hero = () => {
       <div className="hero-content">
         <h2>Hello! I'am Bao</h2>
         <h5>
-          I'am a <span>Frontend Developer</span>
+          I'm a <span>Frontend Developer</span>
         </h5>
 
         <p>
