@@ -3,7 +3,7 @@ import "./Hero.css";
 import html from "../../assets/images/html.png";
 import img01 from "../../assets/images/home.gif";
 import react from "../../assets/images/react.png";
-import myCV from "../../assets/files/InternFrontEndDeveloper_PhanQuocBao.pdf";
+import myCV from "../../assets/files/FrontEndDeveloper_PhanQuocBao.pdf";
 
 const Hero = () => {
   return (
@@ -23,7 +23,7 @@ const Hero = () => {
             <a href="#contact">Contact Me</a>
           </button>
           <button className="btn btn-cv">
-            <a href={myCV} download="InternFrontEndDeveloper_PhanQuocBao.pdf">
+            <a href={myCV} download="FrontEndDeveloper_PhanQuocBao.pdf">
               <span> Download CV</span>
               <span className="material-icons-outlined">file_download</span>
             </a>
