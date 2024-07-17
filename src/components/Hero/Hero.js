@@ -1,9 +1,7 @@
 import React from "react";
 import "./Hero.css";
-import html from "../../assets/images/html.png";
 import img01 from "../../assets/images/home.gif";
-import react from "../../assets/images/react.png";
-import myCV from "../../assets/files/FrontEndDeveloper_PhanQuocBao.pdf";
+import myCV from "../../assets/files/FrontendDeveloper_PhanQuocBao.pdf";
 
 const Hero = () => {
   return (
