@@ -34,14 +34,14 @@ const Skills = () => {
           {showAll ? (
             <div className="toggle-arrow">
               Collapse
-              <span className="material-icons-round">
+              <span className="material-icons-round icon-toggle">
                 keyboard_double_arrow_up
               </span>
             </div>
           ) : (
             <div className="toggle-arrow">
               See more
-              <span className="material-icons-round">
+              <span className="material-icons-round icon-toggle">
                 keyboard_double_arrow_down
               </span>
             </div>

@@ -54,7 +54,7 @@
   width: auto;
   margin: 0 auto;
   padding: 1rem;
-  cursor: pointer;
+  cursor: var(--cursorPointer);
   background-color: transparent;
   color: #fff;
   border: none;
@@ -64,6 +64,11 @@
 .toggle-arrow {
   display: flex;
   flex-direction: column;
+  cursor: var(--cursorPointer);
+}
+
+.icon-toggle {
+  cursor: var(--cursorPointer);
 }
 
 @media (max-width: 1025px) {

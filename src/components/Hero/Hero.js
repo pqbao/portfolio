@@ -1,7 +1,7 @@
 import React from "react";
 import "./Hero.css";
 import img01 from "../../assets/images/home.gif";
-import myCV from "../../assets/files/FrontendDeveloper_PhanQuocBao.pdf";
+import myCV from "../../assets/files/WebDeveloperIntern_PhanQuocBao.pdf";
 
 const Hero = () => {
   return (
@@ -9,12 +9,12 @@ const Hero = () => {
       <div className="hero-content">
         <h2>Hello! I'am Bao</h2>
         <h5>
-          I'm a <span>Frontend Developer</span>
+          I'm a <span>Web Developer</span>
         </h5>
 
         <p>
           With a solid background in HTML, CSS and JavaScript, I look forward to
-          contributing to your Company's growth as a Front End Developer.
+          contributing to your Company's growth as a Web Developer.
         </p>
         <div className="hero-btn">
           <button className="btn btn-contact">

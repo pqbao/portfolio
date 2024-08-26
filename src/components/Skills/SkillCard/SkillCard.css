@@ -10,7 +10,7 @@
   text-align: center;
   background: rgba(22, 17, 47, 0.398);
   backdrop-filter: blur(1rem);
-  cursor: pointer;
+  cursor: var(--cursorPointer);
   transition: all 0.3 ease;
 }
 

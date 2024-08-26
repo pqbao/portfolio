@@ -23,7 +23,7 @@
   position: absolute;
   top: 55%;
   z-index: 2;
-  cursor: pointer;
+  cursor: var(--cursorPointer);
 }
 .arrow-left span,
 .arrow-right span {

@@ -97,7 +97,7 @@
   padding: 0.4rem 1rem;
   border-radius: 0.6rem;
   font-weight: 600;
-  cursor: pointer;
+  cursor: var(--cursorPointer);
 }
 
 .links-btn:hover a:hover {

@@ -5,6 +5,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  cursor: url("https://cdn.custom-cursor.com/db/cursor/32/Uwu_and_OwOCursor.png"),
+    auto;
+  --cursorPointer: url("https://cdn.custom-cursor.com/db/pointer/32/Uwu_and_OwOPointer.png"),
+    pointer;
   -webkit-tap-highlight-color: transparent;
 }
 
